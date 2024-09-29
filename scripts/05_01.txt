@@ -1,5 +1,5 @@
 # Count of Accounts by State
-# Must be keyword field
+# Must be keyword field; size=0 to omit search results
 GET bank/_search
 {
   "size": 0,
