@@ -56,9 +56,11 @@ GET idx1/_analyze
   "field": "title",
   "text": "Bears"
 }
+# return "bears"
 
 GET idx1/_analyze
 {
   "field": "english_title",
   "text": "Bears"
 }
+# return "bear"

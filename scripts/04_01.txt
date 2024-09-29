@@ -35,7 +35,7 @@ GET bank/_search
       ]
     }
   }
-
+}
 
 # let's combine them to search for non "Techade" accounts inside CA
 GET bank/_search
@@ -54,7 +54,7 @@ GET bank/_search
   }
 }
 
-# Boost results for Smith
+# Boost results for Smith >> "should" is used to combine multiple queries
 GET bank/_search
 {
   "query": {
